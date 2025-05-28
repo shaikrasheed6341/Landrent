@@ -30,6 +30,7 @@ model Property {
   description String
   price     Int?
   location  String
+
   image     String
   status    String?
   paragraph String?

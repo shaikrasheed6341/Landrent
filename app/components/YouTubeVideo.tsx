@@ -1,10 +1,10 @@
 import React from 'react';
 
-// Props interface for type safety (if using TypeScript)
+
 interface YouTubeVideoProps {
-  videoId: string; // YouTube video ID (e.g., '1hEIj3o2Bok')
-  width?: string; // Optional width
-  height?: string; // Optional height
+  videoId: string;
+  width?: string; 
+  height?: string; 
 }
 
 const YouTubeVideo: React.FC<YouTubeVideoProps> = ({

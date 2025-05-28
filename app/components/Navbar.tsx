@@ -15,7 +15,7 @@ interface NavItem {
 const navItems: NavItem[] = [
   { href: "/", label: "Home", ariaLabel: "Go to homepage" },
   {
-    href: "/#properties", // Navigate to homepage with #properties
+    href: "/#properties", 
     label: "Properties",
     ariaLabel: "Scroll to properties section",
     scroll: true,

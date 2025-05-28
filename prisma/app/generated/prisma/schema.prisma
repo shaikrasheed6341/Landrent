@@ -25,15 +25,16 @@ model User {
 }
 
 model Property {
-  id          String   @id @default(uuid())
+  id          String @id @default(uuid())
   title       String
   description String
   price       Int?
   location    String
-  image       String
-  status      String?
-  paragraph   String?
-  createdAt   DateTime @default(now())
+
+  image     String
+  status    String?
+  paragraph String?
+  createdAt DateTime @default(now())
 }
 
 model Contact {
