@@ -8,12 +8,13 @@ export default function Home() {
   return (
     <div>
       <Landingpage />
-      <Perfacthome />
       <section id="properties">
       <Projectscard />
       </section>
+      
       <YouTubeVideo videoId="1hEIj3o2Bok" width="1200" height="600" />
       <Milestonecard />
+      <Perfacthome />
 
     </div>
   );

@@ -33,7 +33,9 @@ export default function Projectscard() {
 
     return (
         <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-            <h1 className="text-4xl font-bold text-center mb-12 text-zinc-900">Featured Projects For Rent & Sale</h1>
+<h1 className="text-5xl font-extrabold text-center mb-16  tracking-tight leading-tight bg-gradient-to-r from-zinc-900 to-zinc-900 bg-clip-text text-transparent drop-shadow-md">
+  Featured Projects For Rent & Sale
+</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {properties.map((property) => (
                     <div key={property.id} className="bg-white rounded-xl shadow-lg overflow-hidden transition-transform hover:scale-105">
