@@ -3,7 +3,7 @@ import { useParams, useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-
+import Mapfunncation from "@/app/components/Mapfuncation";
 type Property = {
   id: string;
   title: string;
@@ -226,9 +226,9 @@ export default function Projectcard() {
                 ))}
               </div>
             </div>
-<div> <p className="font-semibold  text-2xl my-6 text-center">  2D View</p></div>
+            <div> <p className="font-semibold  text-2xl my-6 text-center">  2D View</p></div>
             <div className="flex justify-center mt-8">
-              
+
               <Image
                 src="https://zxetkysuahfjolouwpgh.supabase.co/storage/v1/object/public/homerent//2d%20view.png"
                 alt={`${property.title} 2D View`}
@@ -246,8 +246,10 @@ export default function Projectcard() {
             <button className="px-6 py-2 bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 text-white rounded-md hover:bg-yellow-500 transition-all duration-200 text-sm font-medium">
               Book a Visit Now
             </button>
+
           </div>
         </div>
+        <Mapfunncation />
       </div>
     </div>
   );
