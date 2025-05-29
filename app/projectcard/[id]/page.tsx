@@ -176,7 +176,7 @@ export default function Projectcard() {
                   </div>
                 )}
                 <div className="flex gap-4 mb-6">
-                  <button className="flex-1 bg-yellow-400 text-gray-900 px-4 py-2 rounded-md hover:bg-yellow-500 transition-all duration-200 text-sm font-medium">
+                  <button className="flex-1 bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 text-white px-4 py-2 rounded-md hover:bg-yellow-500 transition-all duration-200 text-sm font-medium">
                     Book a Visit Now
                   </button>
                   <button className="flex-1 bg-gray-200 text-gray-700 px-4 py-2 rounded-md hover:bg-gray-300 transition-all duration-200 text-sm font-medium">
@@ -243,7 +243,7 @@ export default function Projectcard() {
             <button className="px-6 py-2 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300 transition-all duration-200 text-sm font-medium">
               Contact Agent
             </button>
-            <button className="px-6 py-2 bg-yellow-400 text-gray-900 rounded-md hover:bg-yellow-500 transition-all duration-200 text-sm font-medium">
+            <button className="px-6 py-2 bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 text-white rounded-md hover:bg-yellow-500 transition-all duration-200 text-sm font-medium">
               Book a Visit Now
             </button>
           </div>

@@ -64,7 +64,7 @@ export default function Projectscard() {
                             </div>
                             <button 
                                 onClick={() => handleViewDetails(property.id)}
-                                className="block w-full text-center bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-lg transition duration-300 text-lg"
+                                className="text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-30 py-2.5 text-center me-2 mb-2"
                             >
                                 View Details
                             </button>
